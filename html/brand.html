@@ -4,7 +4,8 @@
 <head>
   <title>DHC的品牌櫥窗::.UrCosme.::</title>
   <meta name="verify-v1" content="EctouK4X7+BESa6Re4siwZnw/+viDUehvRIFqX+pBlk=" >
-  <meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta charset='utf-8' />
   <meta name="description" content="DHC品牌櫥窗，匯集了DHC最新最完整的商品資料、美妝新聞、網友評鑑排行榜、品牌達人、品牌故事、urclick投票等資訊" />
   <meta name="keywords" content="DHC,品牌櫥窗,化妝保養" />
   <!--  head_contents -->
@@ -13,7 +14,6 @@
   
   <link rel="stylesheet" href="css/css_brand_theme_main.css" media="screen" />
   <link rel="stylesheet" href="css/css_brand_info.css" media="screen" />
-  <link href="js/jquery.bxslider/jquery.bxslider.css" rel="stylesheet" />
   <link rel="stylesheet" href="css/css_brand_theme_customize.css" media="screen" />
   
   
@@ -26,14 +26,14 @@
 
 
 <body>
-<div id="fb-root"></div>
+<!--<div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  js.src = "http://connect.facebook.net/en_US/all.js#xfbml=1";
   fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+}(document, 'script', 'facebook-jssdk'));</script>-->
 
 
   <!-- headerpage HelpBlock begin -->
@@ -197,7 +197,7 @@
       
       <div class="brand_member_only_content">
         <span class="brand_update">活動期間: 3/16 - 4/18</span>
-        <img src="http://www.urcosme.com/internal/Buzz/system/factory_community/banner_top/21?2013041017" width="200" height="100"/>
+        <img src="http://www.urcosme.com/internal/Buzz/system/factory_community/banner_top/21?2013041017" width="300" height="155"/>
         <p>
           <span>極致美顏眉筆/眉粉 美顏一筆到位  搶手鮮體驗 >> </span><br />
           新一代的極緻美妍眉筆／眉粉系列，增加斜裁式的眉筆筆尖，以及粧效更持久的柔細眉粉，大幅提升了防脫粧機制，讓眉眼妝扮效果加分！<br />
@@ -217,19 +217,26 @@
     <div class="clear"></div>
     
     <!-- 品牌櫥窗 Fourth Block begin -->
-    <div id="brand_tabs">
-      <ul>
-        <li><a href="#brand_buy" class="brand_tabs_nav">經典必敗</a></li>
-        <li><a href="#brand_hot" class="brand_tabs_nav">人氣注目</a></li>
-        <li><a href="#brand_new" class="brand_tabs_nav">哈燒新品</a></li>
+    <div id="brand_tabs" class="brand_rank_tabs">
+      <div class="brand_tabs_nav">
+        <ul>
+          <li><a href="#brand_buy">經典必敗</a></li>
+          <li><a href="#brand_hot">人氣注目</a></li>
+          <li><a href="#brand_new">哈燒新品</a></li> 
+          <div class="clear"></div>      
+          
+        </ul>
+        
         <span class="brand_section_more"><a href="#">- 看更多 DHC 商品</a></span>
-      </ul>
-      
-      <div class="clear"></div>
+        
+        <div class="clear"></div>
+      </div>
       
       <!-- 品牌櫥窗 tabs - 經典必敗 begin -->      
       <div id="brand_buy" class="brand_tabs_border">
         <span class="brand_update">週四更新</span>
+        
+        <div>
         <ul class="brand_rank_list">
           <li class="alignCenter brand_product"><img width="50" height="37" alt="No.1" src="http://www.urcosme.com/rank/images/icon_no_1.gif"></li>
           <li class="alignCenter brand_product"><a href="#"><img src="http://f5.urcosme.com/system/uploads/search/images/8f/3f/17394.jpg" width="145" height="145" alt=""></a></li>
@@ -316,6 +323,8 @@
         </ul>
         
         <div class="clear"></div>
+        
+        </div>
 
       </div>      
       <!-- 品牌櫥窗 tabs - 經典必敗 end -->
@@ -543,7 +552,7 @@
                 <img width="15" height="11" alt="" src="http://www.urcosme.com/search/final/images/star_half.gif">
                 (6.7)
               </p>
-              <p>這瓶之前一直都想買了但是不知道好不好用所以一直不敢輕易嘗試畢竟它比較大罐,直到在網路… <a href="#">more →</a></p>
+              <p>這瓶之前一直都想買了但是不知道好不好用所以一直不敢輕易嘗試畢竟它比較大罐… <a href="#">more →</a></p>
             </li>
             
             <li>
@@ -558,7 +567,7 @@
                 <img width="15" height="11" alt="" src="http://www.urcosme.com/search/final/images/star_half.gif">
                 (6.7)
               </p>
-              <p>這瓶之前一直都想買了但是不知道好不好用所以一直不敢輕易嘗試畢竟它比較大罐,直到在網路… <a href="#">more →</a></p>
+              <p>這瓶之前一直都想買了但是不知道好不好用所以一直不敢輕易嘗試畢竟它比較大罐… <a href="#">more →</a></p>
             </li>
           </ul>
           
@@ -594,30 +603,30 @@
       </div>
       
       <div class="brand_blogSeeker_main">
-        <article>
+        <div class="brand_blogSeeker_article">
           <a href="#"><img src="http://f5.urcosme.com/system/phpThumb/cache2/system/uploads/beautynews/images_paragraph/5846-33019.w_240xh_240xfar_C.jpg" width="213" /></a>
           <p><a href="#"><b>雙子星分享~護唇膏又一發：DHC純欖護唇膏,有光澤感的護唇品</b></a></p>
           <p>最近好像還蠻多唇部產品的文章厚？呵呵...</p>          
-        </article>
+        </div>
         <div class="clear"></div>
         
       </div>
          
       <div class="brand_blogSeeker_sub">
-        <article>
+        <div class="brand_blogSeeker_article">
           <a href="#"><img src="http://f5.urcosme.com/system/phpThumb/cache2/system/uploads/beautynews/images_paragraph/6030-34023.w_240xh_240xfar_C.jpg" width="154" /></a>
           <p><a href="#">最近好像還蠻多唇部產品的文章？呵呵...</a></p> 
-        </article>
+        </div>
         
-        <article>
+        <div class="brand_blogSeeker_article">
           <a href="#"><img src="http://f5.urcosme.com/system/phpThumb/cache2/system/uploads/beautynews/images_paragraph/6030-34023.w_240xh_240xfar_C.jpg" width="154" /></a>
           <p><a href="#">最近好像還蠻多唇部產品的文章？呵呵...</a></p> 
-        </article>
+        </div>
         
-        <article>
+        <div class="brand_blogSeeker_article">
           <a href="#"><img src="http://f5.urcosme.com/system/phpThumb/cache2/system/uploads/beautynews/images_paragraph/6030-34023.w_240xh_240xfar_C.jpg" width="154" /></a>
           <p><a href="#">最近好像還蠻多唇部產品的文章？呵呵...</a></p> 
-        </article>
+        </div>
         
         
       </div>

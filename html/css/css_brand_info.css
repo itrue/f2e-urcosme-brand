@@ -288,42 +288,72 @@
 .brand_member_only {
 	margin: 25px 20px;
 	position: relative;
+	font-size: 15px;
 }
 
-.brand_member_only_content {
-	border: #CCC solid 1px;
-	border-top: none;
-
-}
-
-.brand_member_only_content img {
-	margin: 10px;
-	float: left;
-}
-
-.brand_member_only_content button {
-	float:right;
-}
+	.brand_member_only .brand_section_name {
+		*margin-bottom: -25px;
+	}
+	
+	.brand_member_only_content {
+		border: #CCC solid 1px;
+		border-top: none;
+	
+	}
+	
+	
+	.brand_update {
+		position: absolute;
+		right: 0;
+	}
+	
+	.brand_member_only_content p {
+		padding: 5px;
+	}
+	
+	.brand_member_only_content img {
+		margin: 10px;
+		float: left;
+	}
+	
+	.brand_member_only_content button {
+		float:right;
+		font-size: 15px;
+		margin: 10px;
+		cursor: pointer;
+	}
 
 /* 品牌櫥窗 第四區塊( 排行榜 tabs )----------------------------------------------------------------------------------------*/
 
-#brand_tabs {
+.brand_rank_tabs {
 	position: relative;
 	margin: 20px;
 	font-size: 15px;
 }
 
-.brand_tabs_nav{
-	float:left;
-	display: block;
-	border: #CCC solid 1px;
-	border-bottom: none;
-	padding: 3px 45px;
-	margin-right: -1px;
-	background-color: #f7f8f8; 
+.brand_tabs_nav ul {
+	float: left;
+
 }
 
-.brand_tabs_nav:hover {
+
+.brand_tabs_nav ul li{
+	float:left;	
+}
+
+.brand_tabs_nav ul li a {
+	display:block;
+	width: 180px;
+	height: 30px;
+	text-align: center;
+	border: #CCC solid 1px;
+	border-bottom: none;
+	margin-right: -1px;
+	background-color: #f7f8f8;
+	line-height: 1.6em;
+}
+
+.brand_tabs_nav ul li a:hover {
 	background-color: #FFF; 
 	
 }
@@ -332,6 +362,10 @@
 .brand_tabs_border {
 	display: block;
 	border: #CCC solid 1px;
+}
+
+.brand_tabs_border div {
+	
 }
 
 
@@ -344,8 +378,8 @@
 	
 	.brand_rank_list li {
 		border: #CCC solid 1px;
-		border-bottom: none;
 		width: 145px;
+		margin-bottom: -1px;
 	
 	}
 	
@@ -436,6 +470,7 @@
 		
 		.brand_newReview_users_profile span {
 			float: right;
+			*margin-top: -31px;
 		}
 		
 		.brand_newReview_users_profile span img {
@@ -456,7 +491,7 @@
 	margin: 25px 20px;
 }
 
-.brand_blogSeeker article {
+.brand_blogSeeker .brand_blogSeeker_article {
 	font-size: 15px;
 }
 
@@ -468,13 +503,13 @@
 		width: 473px;
 	}
 	
-	.brand_blogSeeker_main article img {
+	.brand_blogSeeker_main .brand_blogSeeker_article img {
 		float: left;
 		border-right: #CCC solid 1px;
 		margin-right: 15px;
 	}
 	
-	.brand_blogSeeker_main article p {
+	.brand_blogSeeker_main .brand_blogSeeker_article p {
 		padding: 10px;
 
 	}
@@ -484,16 +519,17 @@
 		float: right;
 	}
 	
-	.brand_blogSeeker_sub article {
+	.brand_blogSeeker_sub .brand_blogSeeker_article {
 		width: 155px;
 		float: left;
 	}
 	
-	.brand_blogSeeker_sub article img {
+	.brand_blogSeeker_sub .brand_blogSeeker_article img {
 		border-right: #CCC solid 1px;
+		*margin-bottom: -3px;
 	}
 	
-	.brand_blogSeeker_sub article p {
+	.brand_blogSeeker_sub .brand_blogSeeker_article p {
 		border: #CCC solid 1px;
 		border-left: none;
 		padding: 5px 0 5px 8px;

@@ -6,7 +6,7 @@ a:hover {
 	
 }
 
-article a {
+.active_link a {
 	color: #05398c;
 }
 

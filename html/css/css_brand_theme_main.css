@@ -1,0 +1,178 @@
+/* CSS Document */
+
+/* 共用----------------------------------------------------------------------------------------------------------------------------------------*/
+
+p, a, td, th, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, select, input, textarea, button {
+	font-family: "微軟正黑體",Verdana,Arial,Helvetica,sans-serif;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+.active_link a {
+	text-decoration: underline; 
+	font-weight:bold;
+}
+
+.alignCenter {
+	text-align: center;
+}
+
+
+
+	/* 品牌櫥窗 麵包屑-----------------------------------------------------------------------------------------------------------------------------------*/
+	.breadcrumb {
+		margin: 10px 0 0 10px;
+		letter-spacing: 1px;
+	}
+	.breadcrumb li {
+		float: left;
+	}
+
+	/* 品牌櫥窗 section 標題-----------------------------------------------------------------------------------------------------------------------------------*/
+	.brand_section_title {
+		border-bottom: #CCC solid 2px;
+	}
+	
+	
+	.brand_section_name {
+		float:left;
+		display:block;
+		padding: 3px 10px;
+		font-size: 15px;
+		letter-spacing: 1px;
+		background-color: #CCC;
+		color: #FFF;
+	}
+	
+	.brand_section_more {
+		float:right;
+		margin: 3px;
+		font-size: 12px;
+		letter-spacing: 1px;
+	}
+	
+	/* 品牌櫥窗 產品 -----------------------------------------------------------------------------------------------------------------------------------*/
+	
+	.brand_product {
+		padding: 5px 10px;
+	}
+	
+	
+	.brand_product_value {
+		font-size: 12px;
+		color: #CCC;
+	}
+	
+	.brand_product_value img {
+		vertical-align: middle;
+	}
+	
+	/* 品牌櫥窗 date update -----------------------------------------------------------------------------------------------------------------------------------*/
+	
+	.brand_update {
+		position: absolute;
+		right: 0px;
+		font-size: 12px;
+		padding: 1px 5px;
+		letter-spacing: 1px;
+	}
+	
+	
+	
+	
+
+/* 最上層--------------------------------------------------------------------------------------------------------------------------------------*/
+
+#headerpageHelpBlock {
+	width: 980px;
+	letter-spacing: 1px;
+	
+}
+
+/* 品牌櫥窗 container-----------------------------------------------------------------------------------------------------------------------------------*/
+
+#container {
+	background: url("../images/brand_background.png") repeat-y scroll 0 0 transparent;
+	width: 980px;
+	
+}
+
+	/* 品牌櫥窗 header-----------------------------------------------------------------------------------------------------------------------------------*/
+	#headerpage {
+		margin: 0px;
+	}
+	
+		
+		/* 品牌櫥窗 主選單-----------------------------------------------------------------------------------------------------------------------------------*/
+		.headerpageNav {
+			float: right;
+			margin: 40px 0 0 0;
+			letter-spacing: 0.5px;
+		}
+		
+		.headerpageNav li {
+			float: left;
+			display: block;
+			width: 120px;
+			border-left: #CCC solid 1px;
+			text-align:center;			
+			font-size: 15px;			
+		}
+		
+		
+		
+		
+	/* 品牌櫥窗 footer--------------------------------------------------------------------------------------------------------------------------------------*/
+	.brand_footer {
+		margin: 25px 20px;
+		font-size: 15px;
+	}
+	
+	.brand_footer img {
+		vertical-align: middle;
+	}
+	
+	.brand_footer ul {
+		border: #CCC solid 1px;
+		border-right: none;
+	}
+	
+	.brand_footer ul li a{
+		border-right: #CCC solid 1px;
+		float: left;		
+		width: 312px;
+		height: 50px;
+		padding: 5px 0;
+		background-color: #f7f8f8;
+	}
+	
+	.brand_footer ul li a:hover {
+		background-color: #FFF;
+	}
+	
+	
+				
+		
+		
+
+
+
+	/* UrCosme footer--------------------------------------------------------------------------------------------------------------------------------------*/
+	
+	
+	#footerpage {
+		background: url("../images/brand_background.png") repeat-y scroll 0 0 transparent;
+		clear: both;
+		width: 980px;
+		letter-spacing: 1px;
+	}
+	
+	#footerpage .breadcrumb {
+		margin: 0 0 10px 20px; 
+	}
+	
+	#footerpageList a:hover {
+		text-decoration: underline;
+	}

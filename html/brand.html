@@ -26,6 +26,15 @@
 
 
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 
   <!-- headerpage HelpBlock begin -->
   <div id="headerpageHelpBlock">
@@ -85,21 +94,14 @@
       <!-- 品牌櫥窗 主視覺 slide begin -->
       <div class="brand_kv">
         <ul class="bxslider">
-          <li><a href="#"><img src="http://www.urcosme.com/internal/Buzz/system/factory_community/banner_top/21?2013041611" /></a></li>
-          <li><a href="#"><img src="http://www.urcosme.com/internal/Buzz/system/factory_community/banner_top/21?2013041611" /></a></li>
-<!--          <li><img src="http://www.urcosme.com/internal/Buzz/system/factory_community/banner_top/21?2013041611" /></li>
-          <li><img src="http://www.urcosme.com/internal/Buzz/system/factory_community/banner_top/21?2013041611" /></li>
-          <li><img src="http://www.urcosme.com/internal/Buzz/system/factory_community/banner_top/21?2013041611" /></li>-->
+          <li><a href="#"><img src="http://www.urcosme.com/internal/Buzz/system/factory_community/banner_top/21?2013041611" width="590" height="300" /></a></li>
+          <li><a href="#"><img src="http://www.urcosme.com/internal/Buzz/system/factory_community/banner_top/21?2013041611" width="590" height="300" /></a></li>
+          <li><a href="#"><img src="http://www.urcosme.com/internal/Buzz/system/factory_community/banner_top/21?2013041611" width="590" height="300" /></a></li>
+          <li><a href="#"><img src="http://www.urcosme.com/internal/Buzz/system/factory_community/banner_top/21?2013041611" width="590" height="300" /></a></li>
+          <li><a href="#"><img src="http://www.urcosme.com/internal/Buzz/system/factory_community/banner_top/21?2013041611" width="590" height="300" /></a></li>
         </ul> 
         
         <div class="bx-pager bx-default-pager"></div>
-        
-        <div class="bx-pager bx-default-pager">
-          <div class="bx-controls-direction">
-            <a class="bx-prev" href="">Prev</a>
-            <a class="bx-next" href="">Next</a>
-          </div>
-        </div> 
         
         
            	
@@ -321,7 +323,7 @@
       
       <!-- 品牌櫥窗 tabs - 人氣注目 begin -->      
       <div id="brand_hot" class="brand_tabs_border">
-        <span class="brand_tabs_update">HOT</span>
+        <span class="brand_update">HOT</span>
         <ul class="brand_rank_list">
           <li class="alignCenter brand_product"><img width="50" height="37" alt="No.1" src="http://www.urcosme.com/rank/images/icon_no_1.gif"></li>
           <li class="alignCenter brand_product"><a href="#"><img src="http://f5.urcosme.com/system/uploads/search/images/8f/3f/17394.jpg" width="145" height="145" alt=""></a></li>
@@ -414,7 +416,7 @@
       
       <!-- 品牌櫥窗 tabs - 哈燒新品 begin --> 
       <div id="brand_new" class="brand_tabs_border">
-        <span class="brand_tabs_update">NEW</span>
+        <span class="brand_update">NEW</span>
         <ul class="brand_rank_list">
           <li class="alignCenter brand_product"><img width="50" height="37" alt="No.1" src="http://www.urcosme.com/rank/images/icon_no_1.gif"></li>
           <li class="alignCenter brand_product"><a href="#"><img src="http://f5.urcosme.com/system/uploads/search/images/8f/3f/17394.jpg" width="145" height="145" alt=""></a></li>
@@ -571,7 +573,7 @@
       
       <!-- 品牌櫥窗 Facebook API begin -->
       <div class="brand_facebook_api"> 
-        fb fb fb fb
+        <div class="fb-like-box" data-href="http://www.facebook.com/UrCosme?fref=ts" data-width="310" data-height="310" data-show-faces="false" data-stream="true" data-header="true"></div>
       </div>
       <!-- 品牌櫥窗 Facebook API end -->
       
@@ -691,179 +693,9 @@
   <script type="text/javascript" src="js/jquery.bxslider/jquery.bxslider.min.js"></script>
   <script type="text/javascript" src="js/jquery.proximity/jquery.proximity.js"></script>
   <script type="text/javascript" src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+  <script type="text/javascript" src="js/jquery.brand.js"></script>
   
-  <script>
-	$(document).ready(function(){
-	  $('.bxslider').bxSlider();
-	});
-  </script>
   
-  <script>
-	$(document).ready(function() {
-	  $( "#brand_tabs" ).tabs();
-	});
-  </script>
-  
-  <script type="text/javascript">
-      $(function() {
-          
-          var Photo	= (function() {
-              
-                  // list of thumbs
-              var $list		= $('#pe-thumbs'),
-                  // list's width and offset left.
-                  // this will be used to know the position of the description container
-                  listW		= $list.width(),
-                  listL		= $list.offset().left,
-                  // the images
-                  $elems		= $list.find('img'),
-                  // the description containers
-                  $descrp		= $list.find('div.pe-description'),
-                  // maxScale : maximum scale value the image will have
-                  // minOpacity / maxOpacity : minimum (set in the CSS) and maximum values for the image's opacity
-                  settings	= {
-                      maxScale	: 1.1,
-                      maxOpacity	: 0.9,
-                      minOpacity	: Number( $elems.css('opacity') )
-                  },
-                  init		= function() {
-                      
-                      // minScale will be set in the CSS
-                      settings.minScale = _getScaleVal() || 1;
-                      // preload the images (thumbs)
-                      _loadImages( function() {
-                          
-                          _calcDescrp();
-                          _initEvents();
-                      
-                      });
-                  
-                  },
-                  // Get Value of CSS Scale through JavaScript:
-                  // http://css-tricks.com/get-value-of-css-rotation-through-javascript/
-                  _getScaleVal= function() {
-                  
-                      var st = window.getComputedStyle($elems.get(0), null),
-                          tr = st.getPropertyValue("-webkit-transform") ||
-                               st.getPropertyValue("-moz-transform") ||
-                               st.getPropertyValue("-ms-transform") ||
-                               st.getPropertyValue("-o-transform") ||
-                               st.getPropertyValue("transform") ||
-                               "fail...";
-
-                      if( tr !== 'none' ) {	 
-
-                          var values = tr.split('(')[1].split(')')[0].split(','),
-                              a = values[0],
-                              b = values[1],
-                              c = values[2],
-                              d = values[3];
-
-                          return Math.sqrt( a * a + b * b );
-                      
-                      }
-                      
-                  },
-                  // calculates the style values for the description containers,
-                  // based on the settings variable
-                  _calcDescrp	= function() {
-                      
-                      $descrp.each( function(i) {
-                      
-                          var $el		= $(this),
-                              $img	= $el.prev(),
-                              img_w	= $img.width(),
-                              img_h	= $img.height(),
-                              img_n_w	= settings.maxScale * img_w,
-                              img_n_h	= settings.maxScale * img_h,
-                              space_t = ( img_n_h - img_h ) / 2,
-                              space_l = ( img_n_w - img_w ) / 2;
-                          
-                          $el.data( 'space_l', space_l ).css({
-                              height	: settings.maxScale * $el.height(),
-                              top		: -space_t,
-                              left	: img_n_w - space_l
-                          });
-                      
-                      });
-                  
-                  },
-                  _initEvents	= function() {
-                  
-                      $elems.on('proximity.Photo', { max: 80, throttle: 10, fireOutOfBounds : true }, function(event, proximity, distance) {
-                          
-                          var $el			= $(this),
-                              $li			= $el.closest('li'),
-                              $desc		= $el.next(),
-                              scaleVal	= proximity * ( settings.maxScale - settings.minScale ) + settings.minScale,
-                              scaleExp	= 'scale(' + scaleVal + ')';
-                          
-                          // change the z-index of the element once it reaches the maximum scale value
-                          // also, show the description container
-                          if( scaleVal === settings.maxScale ) {
-                              
-                              $li.css( 'z-index', 1000 );
-                              
-                              if( $desc.offset().left + $desc.width() > listL + 1.1*listW ) {
-                                  
-                                  $desc.css( 'left', -$desc.width() - $desc.data( 'space_l' ) );
-                              
-                              }
-                              
-                              $desc.fadeIn( 800 );
-                              
-                          }	
-                          else {
-                              
-                              $li.css( 'z-index', 1 );
-                          
-                              $desc.stop(true,true).hide();
-                          
-                          }	
-                          
-                          $el.css({
-                              '-webkit-transform'	: scaleExp,
-                              '-moz-transform'	: scaleExp,
-                              '-o-transform'		: scaleExp,
-                              '-ms-transform'		: scaleExp,
-                              'transform'			: scaleExp,
-                              'opacity'			: ( proximity * ( settings.maxOpacity - settings.minOpacity ) + settings.minOpacity )
-                          });
-
-                      });
-                  
-                  },
-                  _loadImages	= function( callback ) {
-                      
-                      var loaded 	= 0,
-                          total	= $elems.length;
-                      
-                      $elems.each( function(i) {
-                          
-                          var $el = $(this);
-                          
-                          $('<img/>').load( function() {
-                              
-                              ++loaded;
-                              if( loaded === total )
-                                  callback.call();
-                              
-                          }).attr( 'src', $el.attr('src') );
-                      
-                      });
-                  
-                  };
-              
-              return {
-                  init	: init
-              };
-          
-          })();
-          
-          Photo.init();
-          
-      });
-  </script>
 
 </body>
 </html>

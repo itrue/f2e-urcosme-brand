@@ -13,21 +13,102 @@
 		float:left;
 	}
 	
-	.bx-wrapper .bx-controls-direction a {
-		height: 32px;
-		margin-top: -16px;
-		outline: 0 none;
-		position: absolute;
-		text-indent: -9999px;
-		top: 50%;
-		width: 32px;
-		z-index: 9999;
+	/** RESET AND LAYOUT
+	===================================*/
+	
+	.bx-wrapper {
+		position: relative;
+		*zoom: 1;
 	}
 	
-	.bx-wrapper .bx-prev {
-		background: url("images/controls.png") no-repeat scroll 0 -32px transparent;
-		left: 10px;
+	.bx-wrapper img {
+		max-width: 100%;
+		display: block;
 	}
+	
+		/** THEME
+		===================================*/
+		
+		.bx-wrapper  {
+			-moz-box-shadow: 0 0 5px #ccc;
+			-webkit-box-shadow: 0 0 5px #ccc;
+			box-shadow: 0 0 5px #ccc;
+			border: solid #fff 5px;
+			left: 0;
+			background: #fff;
+		}
+		
+		.bx-wrapper .bx-pager,
+		.bx-wrapper .bx-controls-auto {
+			position: absolute;
+			bottom: 10px;
+			width: 100%;
+		}
+		
+		/* PAGER */
+		
+		.bx-wrapper .bx-pager {
+			text-align: center;
+		}
+		
+		.bx-wrapper .bx-pager .bx-pager-item,
+		.bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+			display: inline-block;
+			*zoom: 1;
+			*display: inline;
+		}
+		
+		.bx-wrapper .bx-pager.bx-default-pager a {
+			background: #666;
+			text-indent: -9999px;
+			display: block;
+			width: 10px;
+			height: 10px;
+			margin: 0 5px;
+			outline: 0;
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			border-radius: 5px;
+		}
+		
+		.bx-wrapper .bx-pager.bx-default-pager a:hover,
+		.bx-wrapper .bx-pager.bx-default-pager a.active {
+			background: #000;
+		}
+		
+		/* DIRECTION CONTROLS (NEXT / PREV) */
+		
+		.bx-wrapper .bx-prev {
+			left: 10px;
+			background: url(../images/controls.png) no-repeat 0 -32px;
+		}
+		
+		.bx-wrapper .bx-next {
+			right: 10px;
+			background: url(../images/controls.png) no-repeat -43px -32px;
+		}
+		
+		.bx-wrapper .bx-prev:hover {
+			background-position: 0 0;
+		}
+		
+		.bx-wrapper .bx-next:hover {
+			background-position: -43px 0;
+		}
+		
+		.bx-wrapper .bx-controls-direction a {
+			position: absolute;
+			top: 50%;
+			margin-top: -16px;
+			outline: 0;
+			width: 32px;
+			height: 32px;
+			text-indent: -9999px;
+			z-index: 9999;
+		}
+		
+		
+		
 	
 	/* 品牌櫥窗 品牌要素--------------------------------------------------------------------------------------------------------------------------------------*/
 	.brand_element {
@@ -80,7 +161,7 @@
 		button.addtoFav {
 			font-size: 17px;
 			color: #ffffff;
-			padding: 7px 40px;
+			padding: 5px;
 			background: -moz-linear-gradient(
 				top,
 				#e37da6 0%,
@@ -112,6 +193,7 @@
 			line-height: 1.5em;
 			background-color: #d64c81\9;
 			*width: 270px;
+			width: 275px;
 		}
 		
 		/* 品牌櫥窗 品牌要素 搜尋 select -----------------------------------------------------------------------------------------*/

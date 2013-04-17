@@ -1,13 +1,24 @@
 // JavaScript Document
 $(document).ready(function() {
+  $( "#brand_index_tabs" ).tabs();
+  $( "#brand_product_search" ).tabs();
+  $( "#brand_product_attribute" ).tabs();
+  $( "#brand_product_search_result" ).tabs();
+  
+  
+});
+
+
+$(document).ready(function() {
   $('.bxslider').bxSlider({
 	auto: true
   });
 });
 
-$(document).ready(function() {
-  $( "#brand_tabs" ).tabs();
-});
+
+
+
+
 
 
 $(function() {

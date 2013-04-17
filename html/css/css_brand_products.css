@@ -1,0 +1,99 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* 產品列表 搜尋區塊 --------------------------------------------------------------------------------*/
+
+.brand_product_search_section {
+	margin: 25px 20px;
+	font-size: 15px;
+	
+}
+
+	/* 產品列表 搜尋NAV --------------------------------------------------------------------------------*/
+
+	.brand_product_search_nav li {
+		float: left;
+		margin-bottom: 25px;
+	}
+	
+	.brand_product_search_nav li a {
+		display: block;
+		width: 468px;
+		border: #fff solid 1px;		
+		background-color: #efefef;
+		text-align:center;
+		padding: 5px 0;
+		letter-spacing: 1px;
+		
+	}
+	
+	.brand_product_search_nav li a img {
+		margin-right: 5px;
+	}
+	
+		
+		/* 產品列表 搜尋選項 --------------------------------------------------------------------------------*/
+		.brand_product_search_option {
+			padding: 10px;
+		}
+		.brand_product_search_option a {
+			display: block;
+			width:220px;
+			padding-left: 5px;
+		}
+		
+		
+		/* 產品列表 按系列搜尋nav --------------------------------------------------------------------------------*/
+		.brand_product_attribute_nav li {
+			float: left;
+		}
+		
+		.brand_product_attribute_nav li a {
+			display: block;
+			border: #fff solid 1px;
+			border-bottom: none;
+			background-color: #efefef;
+			width: 100px;
+			text-align: center;
+			padding: 5px 1px;; 
+		}
+		
+/* 產品列表 搜尋結果區塊 --------------------------------------------------------------------------------*/
+
+.brand_product_search_result_section {
+	margin: 25px 20px;
+	font-size: 15px;
+}
+
+	/* 產品列表 搜尋結果 filter nav --------------------------------------------------------------------------------*/
+	.brand_product_search_result_nav li {
+		float: left;
+	}
+	
+	.brand_product_search_result_nav li a {
+		display: block;
+		border: #CCC solid 1px;
+		width: 214px;
+		height: 30px;
+		margin-left: -1px;
+		padding:5px 10px 2px 10px;
+		
+
+		
+	}
+	
+		/* 產品列表 搜尋結果 filter check --------------------------------------------------------------------------------*/
+		.brand_product_search_result_nav img {
+			background-color: #efefef;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+			margin-right: 5px;
+ 
+		}
+		
+		
+
+		
+
+

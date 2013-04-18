@@ -10,6 +10,19 @@ a:hover {
 	color: #05398c;
 }
 
+.brand_btn_active a {
+	color: #fff;
+	background-color: #05398c !important; 
+}
+
+.brand_check_active a img {
+	background-color: #05398c !important; 
+}
+
+.brand_check_active a {
+	color: #05398c !important;
+}
+
 
 /* 品牌櫥窗 section 標題-----------------------------------------------------------------------------------------------------------------------------------*/
 .brand_section_title {
@@ -70,10 +83,6 @@ a:hover {
 .brand_product_search_option a:hover {
 	color: #05398c;
 	background-color:#FFF;
-}
-
-.check_active {
-	background-color: #05398c !important;
 }
 
 		

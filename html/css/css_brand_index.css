@@ -364,10 +364,6 @@
 	border: #CCC solid 1px;
 }
 
-.brand_tabs_border div {
-	
-}
-
 
 	/* 品牌情報 tabs content ----------------------------------------------------------------------------------------*/
 	.brand_rank_list {
@@ -375,12 +371,9 @@
 		float: left;
 		margin: 10px 0 20px 17px;
 	}
-	
 	.brand_rank_list li {
-		border: #CCC solid 1px;
 		width: 145px;
-		margin-bottom: -1px;
-	
+		
 	}
 	
 	.brand_rank_list li:first-child {
@@ -388,14 +381,7 @@
 		height: 40px;
 	}
 	
-	.brand_rank_list li:last-child {
-		border-bottom: #CCC solid 1px;
-	}
-	
-	.brand_product_value img {
-		margin-left:-1px;
-	}
-	
+
 	
 /* 品牌情報 第五區塊( 新品新鮮貨心得 & FB )----------------------------------------------------------------------------------------*/
 .brand_newReview_FB {

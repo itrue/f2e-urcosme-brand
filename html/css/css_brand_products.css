@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
-/* ²£«~¦Cªí ·j´M°Ï¶ô --------------------------------------------------------------------------------*/
+/* ç”¢å“åˆ—è¡¨ æœå°‹ Block --------------------------------------------------------------------------------*/
 
 .brand_product_search_section {
 	margin: 25px 20px;
@@ -9,7 +9,7 @@
 	
 }
 
-	/* ²£«~¦Cªí ·j´MNAV --------------------------------------------------------------------------------*/
+	/* ç”¢å“åˆ—è¡¨ æœå°‹ NAV --------------------------------------------------------------------------------*/
 
 	.brand_product_search_nav li {
 		float: left;
@@ -18,12 +18,13 @@
 	
 	.brand_product_search_nav li a {
 		display: block;
-		width: 468px;
+		width: 465px;
 		border: #fff solid 1px;		
 		background-color: #efefef;
 		text-align:center;
-		padding: 5px 0;
+		padding: 5px 1.8px;
 		letter-spacing: 1px;
+		margin-left: -1px;
 		
 	}
 	
@@ -32,7 +33,7 @@
 	}
 	
 		
-		/* ²£«~¦Cªí ·j´M¿ï¶µ --------------------------------------------------------------------------------*/
+		/* ç”¢å“åˆ—è¡¨ æœå°‹é¸é … --------------------------------------------------------------------------------*/
 		.brand_product_search_option {
 			padding: 10px;
 		}
@@ -43,29 +44,29 @@
 		}
 		
 		
-		/* ²£«~¦Cªí «ö¨t¦C·j´Mnav --------------------------------------------------------------------------------*/
-		.brand_product_attribute_nav li {
-			float: left;
-		}
+			/* ç”¢å“åˆ—è¡¨ æŒ‰å±¬æ€§æœå°‹  --------------------------------------------------------------------------------*/
+			.brand_product_attribute_nav li {
+				float: left;
+			}
+			
+			.brand_product_attribute_nav li a {
+				display: block;
+				border: #fff solid 1px;
+				background-color: #efefef;
+				width: 100px;
+				text-align: center;
+				padding: 5px 1.6px;
+				margin-left:-1px;
+			}
 		
-		.brand_product_attribute_nav li a {
-			display: block;
-			border: #fff solid 1px;
-			border-bottom: none;
-			background-color: #efefef;
-			width: 100px;
-			text-align: center;
-			padding: 5px 1px;; 
-		}
-		
-/* ²£«~¦Cªí ·j´Mµ²ªG°Ï¶ô --------------------------------------------------------------------------------*/
+/* ç”¢å“åˆ—è¡¨ æœå°‹çµæœ --------------------------------------------------------------------------------*/
 
 .brand_product_search_result_section {
 	margin: 25px 20px;
 	font-size: 15px;
 }
 
-	/* ²£«~¦Cªí ·j´Mµ²ªG filter nav --------------------------------------------------------------------------------*/
+	/* ç”¢å“åˆ—è¡¨ æœå°‹çµæœ filter nav --------------------------------------------------------------------------------*/
 	.brand_product_search_result_nav li {
 		float: left;
 	}
@@ -75,14 +76,14 @@
 		border: #CCC solid 1px;
 		width: 214px;
 		height: 30px;
-		margin-left: -1px;
-		padding:5px 10px 2px 10px;
+		margin-right: -1px;
+		padding:7px 9.9px 0;
 		
 
 		
 	}
 	
-		/* ²£«~¦Cªí ·j´Mµ²ªG filter check --------------------------------------------------------------------------------*/
+		/* ç”¢å“åˆ—è¡¨ æœå°‹çµæœ filter check --------------------------------------------------------------------------------*/
 		.brand_product_search_result_nav img {
 			background-color: #efefef;
 			-webkit-border-radius: 5px;
@@ -90,6 +91,29 @@
 			border-radius: 5px;
 			margin-right: 5px;
  
+		}
+		
+		
+		/* ç”¢å“åˆ—è¡¨ æœå°‹çµæœ ç”¢å“ --------------------------------------------------------------------------------*/
+		.brand_products {
+			border: #CCC solid 1px;
+			border-top: none;
+			padding: 10px;
+		}
+		
+		.brand_product_list {
+			display:block;
+			float: left;
+			padding: 12px 11.2px;
+		}
+		
+		.brand_product_list li {
+			width: 185px;
+		}
+		
+		.brand_product_filter {
+			float: right;
+			margin: 10px;
 		}
 		
 		

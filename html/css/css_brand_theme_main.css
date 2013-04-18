@@ -23,11 +23,11 @@ a:link {
 
 
 	/* 品牌櫥窗 麵包屑-----------------------------------------------------------------------------------------------------------------------------------*/
-	.breadcrumb {
+	.brand_breadcrumb {
 		margin: 10px 0 0 10px;
 		letter-spacing: 1px;
 	}
-	.breadcrumb li {
+	.brand_breadcrumb li {
 		float: left;
 	}
 
@@ -58,6 +58,8 @@ a:link {
 	
 	.brand_product {
 		padding: 5px 10px;
+		border: #CCC solid 1px;
+		margin-top: -1px;
 	}
 	
 	
@@ -69,6 +71,7 @@ a:link {
 	.brand_product_value img {
 		vertical-align: middle;
 	}
+	
 	
 	/* 品牌櫥窗 date update -----------------------------------------------------------------------------------------------------------------------------------*/
 	
@@ -94,26 +97,35 @@ a:link {
 
 /* 品牌櫥窗 container-----------------------------------------------------------------------------------------------------------------------------------*/
 
-#container {
+.brand_container {
 	background: url("../images/brand_background.png") repeat-y scroll 0 0 transparent;
 	width: 980px;
+	margin: auto;
 	
 }
 
 	/* 品牌櫥窗 header-----------------------------------------------------------------------------------------------------------------------------------*/
-	#headerpage {
+	.brand_headerpage {
 		margin: 0px;
+    	padding: 0 1em;
+	}
+	
+	.brand_headerpage .brand_headerpageLogoBlock {
+		float: left;
+		margin-bottom: 0.5em;
+		margin-right: 0.2em;
+		padding-top: 1.5em;
 	}
 	
 		
 		/* 品牌櫥窗 主選單-----------------------------------------------------------------------------------------------------------------------------------*/
-		.headerpageNav {
+		.brand_headerpageNav {
 			float: right;
 			margin: 40px 0 0 0;
 			letter-spacing: 0.5px;
 		}
 		
-		.headerpageNav li {
+		.brand_headerpageNav li {
 			float: left;
 			display: block;
 			width: 120px;
@@ -171,7 +183,7 @@ a:link {
 		letter-spacing: 1px;
 	}
 	
-	#footerpage .breadcrumb {
+	#footerpage .brand_breadcrumb {
 		margin: 0 0 10px 20px; 
 	}
 	

@@ -202,9 +202,7 @@
 		}
 		
 /* 品牌情報 第二區塊( 粉絲好康快訊 & HOT NEWS)----------------------------------------------------------------------------------------*/
-.brand_news {
-	margin: 25px 20px;
-}
+
 
 	
 	/* 品牌情報 粉絲好康快訊  -----------------------------------------------------------------------------------------*/
@@ -220,7 +218,6 @@
 		border: #CCC solid 1px;
 		border-top: none;
 		padding: 9px 15px;
-		font-size: 15px;
 		background-color:#f7f8f8;
 	}
 	
@@ -286,9 +283,7 @@
 	
 /* 品牌情報 第三區塊( UrCosme 會員專屬限定)----------------------------------------------------------------------------------------*/
 .brand_member_only {
-	margin: 25px 20px;
 	position: relative;
-	font-size: 15px;
 }
 
 	.brand_member_only .brand_section_name {
@@ -327,8 +322,6 @@
 
 .brand_rank_tabs {
 	position: relative;
-	margin: 20px;
-	font-size: 15px;
 }
 
 .brand_tabs_nav ul {
@@ -351,11 +344,6 @@
 	margin-right: -1px;
 	background-color: #f7f8f8;
 	line-height: 1.8em;
-}
-
-.brand_tabs_nav ul li a:hover {
-	background-color: #FFF; 
-	
 }
 
 
@@ -384,9 +372,7 @@
 
 	
 /* 品牌情報 第五區塊( 新品新鮮貨心得 & FB )----------------------------------------------------------------------------------------*/
-.brand_newReview_FB {
-	margin: 25px 20px;
-}
+
 	
 	/* 品牌情報 新品新鮮貨心得 ----------------------------------------------------------------------------------------*/
 	.brand_newReview {
@@ -472,13 +458,6 @@
 	}
 	
 /* 品牌情報 部落格特搜 ----------------------------------------------------------------------------------------*/	
-.brand_blogSeeker {
-	margin: 25px 20px;
-}
-
-.brand_blogSeeker .brand_blogSeeker_article {
-	font-size: 15px;
-}
 
 	/* 品牌情報 部落格特搜 左邊 main ----------------------------------------------------------------------------------------*/	
 	.brand_blogSeeker_main {

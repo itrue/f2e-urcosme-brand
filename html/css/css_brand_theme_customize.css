@@ -10,18 +10,6 @@ a:hover {
 	color: #05398c;
 }
 
-.brand_btn_active a {
-	color: #fff;
-	background-color: #05398c !important; 
-}
-
-.brand_check_active a img {
-	background-color: #05398c !important; 
-}
-
-.brand_check_active a {
-	color: #05398c !important;
-}
 
 
 /* 品牌櫥窗 section 標題-----------------------------------------------------------------------------------------------------------------------------------*/
@@ -70,6 +58,13 @@ a:hover {
 	color: #05398c;
 }
 
+/* 品牌情報 TAB -----------------------------------------------------------------------------------------------------------------------------------*/
+
+.brand_rank_tabs .ui-state-active a {
+	color: #fff;
+	background-color: #05398c; 
+}	
+
 
 /* 產品列表 搜尋選項 --------------------------------------------------------------------------------*/
 .brand_product_search_option {
@@ -85,4 +80,17 @@ a:hover {
 	background-color:#FFF;
 }
 
+/* 產品列表 搜尋選項 TAB --------------------------------------------------------------------------------*/
+.brand_product_search_section .ui-state-active a {
+	color: #fff;
+	background-color: #05398c; 
+}
+
+.brand_product_search_result_nav .ui-state-active img {
+	background-color: #05398c; 
+}
+
+.brand_product_search_result_nav .ui-state-active a {
+	color: #05398c;
+}
 		

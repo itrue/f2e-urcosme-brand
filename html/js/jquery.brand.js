@@ -30,14 +30,16 @@ $(document).ready(function() {
 });
 
 $(document).ready(function(){
-  $('#jlocator').jlocator({					
-	geolocation: true,
-	latitude: 25.026199,
-	longitude: 121.530841,
-	startZoom: 7,
-	markerIcon: $('#jlocator').attr("data-icon")
-	//,markerIcon: 'img/museum.png'
-  });
+	if($('#jlocator').length > 0) {
+		$('#jlocator').jlocator({					
+		geolocation: true,
+		latitude: 25.026199,
+		longitude: 121.530841,
+		startZoom: 7,
+		markerIcon: $('#jlocator').attr("data-icon")
+		//,markerIcon: 'img/museum.png'
+		});
+	}
 });
 		
 $("#pe-thumbs").each(function() {

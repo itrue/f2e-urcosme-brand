@@ -104,7 +104,7 @@ a:hover {
     background-color: #05398c;
     color: #fff;
   }
-  
+ 
   /* pagination */
   #jlocator .paging span.current{
     font-weight: bold;
@@ -113,10 +113,27 @@ a:hover {
   }
   
   /* stores */
-  #jlocator .store:hover{
+  #jlocator .store p:hover,
+  #jlocator .store p:hover span.title,
+  #jlocator .store .active {
     background-color: #05398c;
+    color: #FFF;
+    font-weight: bold;
   }
   
-  #jlocator .active{
-    background-color: #05398c;
-  } 
+  
+  #jlocator .title{
+    color: #05398c;
+  }
+  
+  #jlocator .info-window .store p:hover span.title {
+    color: #05398c;
+  }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   

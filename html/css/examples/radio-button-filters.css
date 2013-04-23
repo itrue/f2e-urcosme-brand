@@ -6,16 +6,4 @@
 
 
 
-/* 
-* info window 
-*/
-#jlocator .info-window .store p{
-	border: 0px;
-	font-size: 0.8em;
-}
-
-#jlocator .info-window .store:hover,
-#jlocator .info-window .active{
-	background-color: #fff;
-}
 

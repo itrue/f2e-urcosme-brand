@@ -9,6 +9,7 @@
 .brand_location_block table {
 	border: #CCC solid 1px;
 	border-top: none;
+  
 }
 
 .brand_location_block table tr {
@@ -152,7 +153,7 @@
     
     #jlocator .paging{
       float: left;
-      margin: 1.5em 1em 0 1.5em;	
+      margin: 1.2em 1em 0 1.5em;	
       font-size: 12px;
       
     }
@@ -165,7 +166,7 @@
     
     #jlocator .paging-results{
       float: left;
-      margin: 1.5em 0 0.7em 1.5em;
+      margin: 1.2em 0 0.5em 2em;
       font-size: 12px;   
     }	
     
@@ -173,26 +174,40 @@
     /* stores */
     #jlocator .store{
       cursor: pointer;
+      
     }
-    
-
     
     #jlocator .store p{
-      padding: 0.3em 0.6em;
+      padding: 0.63em 0.7em 0.7em 1.2em;
       margin: 0;
-      border-top: 1px dashed #ccc;	
+      border-top: 1px solid #fff;
+      background-color: #f4f4f4
     }
     
-    #jlocator .title{
-      font-family: 'verdana';
-      font-size: 1em;
-      line-height: 1em;
-      color: #CA3F1A;
+    
+    #jlocator .brand_location_map_pin {
+      float: right;
     }
     
-    #jlocator .tags{
-      color: #7F4F24;
+    /* info window */
+    #jlocator .info-window .store p{
+      border: 0px;
+      font-size: 0.8em;
+      background-color: #FFF;
     }
+    
+    #jlocator .info-window .store p:hover,
+    #jlocator .info-window .active{
+      background-color: #fff;
+      color: #666;
+      font-weight: normal;
+    }
+    
+     #jlocator .info-window .store p:hover span.title {
+       background-color: #fff;
+       font-weight: normal;
+     }
+
       
 	
 

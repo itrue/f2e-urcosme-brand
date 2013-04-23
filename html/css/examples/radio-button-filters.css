@@ -1,93 +1,9 @@
 
-/* 
-* jLocator: default preview
-*/
 
 
 
 
 
-
-
-
-
-/*
-* filters
-*/
-#jlocator .autocomplete{
-	float: left;
-	display: block;
-	
-	width: 150px;
-	height: 1.16em;
-	margin: 0.6em 0 0 1.25em;
-	
-	border: 1px solid #aaa;
-}
-
-
-/*
-*  pagination
-*/
-.pagingprev,
-.pagingmid,
-.pagingnext{
-	float: left;
-}
-
-.paging{
-	float: left;
-	margin: 0.6em 0.6em 0 1.25em;	
-}
-
-.paging span{
-	cursor: pointer;
-	color: #1E87AA;
-	margin: 0 0.3em 0 0;	
-}
-
-.paging  span.current{
-	font-weight: bold;
-	color: #CA3F1A;
-}
-
-.paging-results{
-	float: left;
-	margin: 0.6em 0 0 1.25em;
-}
-
-/* 
-* stores
-*/
-#jlocator .store{
-	cursor: pointer;
-}
-
-#jlocator .store:hover{
-	background-color: #DFE5FF;
-}
-
-#jlocator .active{
-	background-color: #DFE5FF;
-}
-
-#jlocator .store p{
-	padding: 0.3em 0.6em;
-	margin: 0;
-	border-bottom: 1px dashed #ccc;	
-	text-shadow: 1px 1px 1px #fff;
-}
-
-#jlocator .title{
-	font-family: 'verdana';
-	font-size: 1em;
-	line-height: 1em;
-	color: #CA3F1A;
-}
-
-#jlocator .tags{
-	color: #7F4F24;
-}
 
 
 /* 
@@ -103,29 +19,3 @@
 	background-color: #fff;
 }
 
-
-/*
-* radio buttons
-*/
-.radio-filters{
-	float: left;
-	margin: 1.12em 0 0 1.25em;
-	font-size: 1em;
-}
-
-.radio-filters input{
-	vertical-align: middle;
-}
-
-.radio-filters label{
-	line-height: 1.67em;
-}
-
-.radio{
-	float: left;	
-}
-
-.radio label{
-	margin-left: 0.3em;
-	margin-right: 0.6em;
-}

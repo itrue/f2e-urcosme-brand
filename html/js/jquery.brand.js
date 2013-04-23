@@ -22,12 +22,26 @@ $(document).ready(function() {
     slideWidth: 207,
     minSlides: 2,
     maxSlides: 4,
-	moveSlides: 1,
+		moveSlides: 1,
     slideMargin: 20
 
   });
 	
 });
+
+	$(document).ready(function(){
+	  $('#jlocator').jlocator({					
+		geolocation: true,
+		latitude: 25.026199,
+		longitude: 121.530841,
+		startZoom: 7,
+		markerIcon: 'images/3.png'
+		//,markerIcon: 'img/museum.png'
+	  });
+	});
+		
+
+
 
 
 

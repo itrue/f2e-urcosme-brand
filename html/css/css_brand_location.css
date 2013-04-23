@@ -46,12 +46,14 @@
 	/* GOOGLE MAP --------------------------------------------------------------------------------*/
 	.brand_location_map {
 		border: #CCC solid 1px;
-		margin-bottom: 25px;
 		border-top: none;
-		float:left;
 	}
 	
 		/* panel --------------------------------------------------------------------------------*/
+    #jlocator{
+      width: 99.8%;
+      float: left;
+    }
 		
 		/* jLocator: default preview*/		
 		#jlocator .panel{
@@ -111,10 +113,9 @@
 			background: #fff url('../images/icons/down-dark.png') no-repeat 99% 50%;
 		}
 		
-		#jlocator .drop-down ul{	
-		
+		#jlocator .drop-down ul{		
 			position: relative;
-			top: 0px;
+			top: 3px;
 			left: -1px;
 			z-index: 1000;
 			
@@ -140,11 +141,59 @@
 			background-color: #fff;
 		}
 		
-		#jlocator .drop-down ul li:hover{
-			background-color: #444;
-			color: #fff;
-		}		
 	
+    
+		/* pagination */
+    #jlocator .pagingprev,
+    #jlocator .pagingmid,
+    #jlocator .pagingnext{
+      float: left;
+    }
+    
+    #jlocator .paging{
+      float: left;
+      margin: 1.5em 1em 0 1.5em;	
+      font-size: 12px;
+      
+    }
+    
+    #jlocator .paging span{
+      cursor: pointer;
+      padding: 2px 5px;	
+      
+    }
+    
+    #jlocator .paging-results{
+      float: left;
+      margin: 1.5em 0 0.7em 1.5em;
+      font-size: 12px;   
+    }	
+    
+    
+    /* stores */
+    #jlocator .store{
+      cursor: pointer;
+    }
+    
+
+    
+    #jlocator .store p{
+      padding: 0.3em 0.6em;
+      margin: 0;
+      border-top: 1px dashed #ccc;	
+    }
+    
+    #jlocator .title{
+      font-family: 'verdana';
+      font-size: 1em;
+      line-height: 1em;
+      color: #CA3F1A;
+    }
+    
+    #jlocator .tags{
+      color: #7F4F24;
+    }
+      
 	
 
 /* 通路資訊 網路通路 Block --------------------------------------------------------------------------------*/

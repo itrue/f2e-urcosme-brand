@@ -95,4 +95,28 @@ a:hover {
 .brand_product_search_result_nav .ui-state-active a {
 	color: #05398c;
 }
- 
+
+
+/* 通路資訊 --------------------------------------------------------------------------------*/
+
+  /* 選擇地區選擇縣市 DROP DOWN　HOVER */
+  #jlocator .drop-down ul li:hover{
+    background-color: #05398c;
+    color: #fff;
+  }
+  
+  /* pagination */
+  #jlocator .paging span.current{
+    font-weight: bold;
+    color: #fff;
+    background-color: #05398c;
+  }
+  
+  /* stores */
+  #jlocator .store:hover{
+    background-color: #05398c;
+  }
+  
+  #jlocator .active{
+    background-color: #05398c;
+  } 

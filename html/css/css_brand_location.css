@@ -1,0 +1,166 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* 共用 --------------------------------------------------------------------------------*/
+
+/* 網路通路 & 連鎖通路 table */
+
+
+.brand_location_block table {
+	border: #CCC solid 1px;
+	border-top: none;
+}
+
+.brand_location_block table tr {
+	display: block;
+	border-top: #CCC solid 1px;
+	padding: 10px 0;
+}
+
+.brand_location_block table tr:first-child {
+	border: none;
+	font-weight: bold;
+	text-align: center;
+}
+
+.brand_location_block table td {
+	border-left: #CCC solid 1px;
+	padding: 0 15px;
+}
+
+.brand_location_block table td:first-child {
+	border: none;
+}
+
+/* GOOGLE MAP */
+
+.box{
+	float: left;
+	width: 100%;
+}
+
+
+
+/* 通路資訊 實體通路 Block --------------------------------------------------------------------------------*/
+
+	/* GOOGLE MAP --------------------------------------------------------------------------------*/
+	.brand_location_map {
+		border: #CCC solid 1px;
+		margin-bottom: 25px;
+		border-top: none;
+		float:left;
+	}
+	
+		/* panel --------------------------------------------------------------------------------*/
+		
+		/* jLocator: default preview*/		
+		#jlocator .panel{
+			width: 34%;
+			height: 550px;
+			float: right;
+			overflow: auto;
+		}
+		
+		#jlocator .map{
+			width: 66%;
+			height: 550px;
+			float: left;
+			background-color: #fff;
+		}
+		
+		#jlocator .no-results p{
+			text-align: center;
+			padding: 20px 0;
+		}
+		
+		#jlocator .hidden{
+			display: none;
+		}
+		
+		/* controls */
+		#jlocator .controls{
+			padding-bottom: 0.6em;
+		}
+		
+		/* drop down */
+		#jlocator .drop-down{
+			float: left;
+			width: 130px;
+			height: 1.5em;
+			
+			margin: 1em 0 0 1.25em;	
+			border: 1px solid #CCC;
+			
+		}
+		
+		#jlocator .drop-down .panel{
+			float: left;
+			width: 125px;
+			height: 1.3em;
+			line-height: 1.3em;
+			
+			overflow: hidden;
+			background: #fff url('../images/icons/down.png') no-repeat 99% 50%;
+			
+			text-indent: 5px;
+			margin: 0px 0px 0px 0px;
+			cursor: pointer;
+		}
+		
+		#jlocator .drop-down:hover .panel{
+			background: #fff url('../images/icons/down-dark.png') no-repeat 99% 50%;
+		}
+		
+		#jlocator .drop-down ul{	
+		
+			position: relative;
+			top: 0px;
+			left: -1px;
+			z-index: 1000;
+			
+			width: 130px;
+			display: none;
+			overflow: hidden;
+			
+			background-color: #fff;
+			border: 1px solid #ccc;
+			
+			padding: 0;
+			margin: 0;
+			
+			list-style: none;
+			border-radius: 0 0 3px 3px;
+		}
+		
+		#jlocator .drop-down ul li{
+			padding: 0 0 0 0.3em;
+			cursor: pointer;
+			width: 130px;
+			float: left;
+			background-color: #fff;
+		}
+		
+		#jlocator .drop-down ul li:hover{
+			background-color: #444;
+			color: #fff;
+		}		
+	
+	
+
+/* 通路資訊 網路通路 Block --------------------------------------------------------------------------------*/
+.brand_location_online table td {   
+    width: 435px;	
+	
+}
+
+
+/* 通路資訊 連鎖通路 Block --------------------------------------------------------------------------------*/
+
+.brand_location_chain table td {
+	width: 278px;	
+}
+		
+
+		
+
+

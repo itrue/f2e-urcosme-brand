@@ -12,12 +12,12 @@ a:hover {
 
 
 
-/* 品牌櫥窗 section 標題-----------------------------------------------------------------------------------------------------------------------------------*/
-.brand_section_title {
+/* 品牌櫥窗 block 標題-----------------------------------------------------------------------------------------------------------------------------------*/
+.brand_block_title {
 	border-bottom: #05398c solid 2px;
 }
 
-.brand_section_name {
+.brand_block_name {
 	background-color: #05398c;
 	color: #FFF;
 }
@@ -32,9 +32,11 @@ a:hover {
 }
 
 
-/* 品牌情報 主視覺 dot --------------------------------------------------------------------------------------------------------------------------------------*/
-.bx-wrapper .bx-pager.bx-default-pager a:hover,
-.bx-wrapper .bx-pager.bx-default-pager a.active {
+/* 品牌情報 主視覺 & 特別企劃歷史回顧 slider dot --------------------------------------------------------------------------------------------------------------------------------------*/
+.brand_kv .bx-wrapper .bx-pager.bx-default-pager a:hover,
+.brand_kv .bx-wrapper .bx-pager.bx-default-pager a.active,
+.brand_promotion_history .bx-pager.bx-default-pager a:hover,
+.brand_promotion_history .bx-pager.bx-default-pager a.active {
 	background: #05398c;
 }
 
@@ -81,7 +83,7 @@ a:hover {
 }
 
 /* 產品列表 搜尋選項 TAB --------------------------------------------------------------------------------*/
-.brand_product_search_section .ui-state-active a {
+.brand_product_search_block .ui-state-active a {
 	color: #fff;
 	background-color: #05398c; 
 }
@@ -93,4 +95,5 @@ a:hover {
 .brand_product_search_result_nav .ui-state-active a {
 	color: #05398c;
 }
+
 		

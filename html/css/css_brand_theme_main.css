@@ -20,7 +20,7 @@ a:link {
 	text-align: center;
 }
 
-.brand_window_section {
+.brand_window_block {
 	margin: 25px 20px;
 	font-size: 15px;
 	
@@ -37,13 +37,13 @@ a:link {
 		float: left;
 	}
 
-	/* 品牌櫥窗 section 標題-----------------------------------------------------------------------------------------------------------------------------------*/
-	.brand_section_title {
+	/* 品牌櫥窗 block 標題-----------------------------------------------------------------------------------------------------------------------------------*/
+	.brand_block_title {
 		border-bottom: #CCC solid 2px;
 	}
 	
 	
-	.brand_section_name {
+	.brand_block_name {
 		float:left;
 		display:block;
 		padding: 3px 10px;
@@ -53,7 +53,7 @@ a:link {
 		color: #FFF;
 	}
 	
-	.brand_section_more {
+	.brand_block_more {
 		float:right;
 		margin: 3px;
 		font-size: 12px;

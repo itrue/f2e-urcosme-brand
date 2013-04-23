@@ -10,10 +10,23 @@ $(document).ready(function() {
 
 
 $(document).ready(function() {
-  $('.bxslider').bxSlider({
+  $('.brand_kv_slider').bxSlider({
 	auto: true,
 	autoHover: true
   });
+  
+});
+
+$(document).ready(function() {
+  $('.brand_promotion_history_slide').bxSlider({
+    slideWidth: 207,
+    minSlides: 2,
+    maxSlides: 4,
+	moveSlides: 1,
+    slideMargin: 20
+
+  });
+	
 });
 
 
@@ -22,10 +35,11 @@ $(document).ready(function() {
 
 
 
+
 $(function() {
-	
+  if($('#pe-thumbs').length > 0) {	
 	var Photo	= (function() {
-		
+	  
 			// list of thumbs
 		var $list		= $('#pe-thumbs'),
 			// list's width and offset left.
@@ -174,9 +188,9 @@ $(function() {
 		return {
 			init	: init
 		};
-	
 	})();
 	
 	Photo.init();
+  }
 	
 });

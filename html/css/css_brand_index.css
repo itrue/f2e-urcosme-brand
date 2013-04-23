@@ -235,6 +235,16 @@
 		width:466px;
 	}
 	
+	.black-cover {
+		width:466px;
+		height: 115px;
+		background-color: black;
+		position: absolute;
+		z-index: 1000;
+		opacity: 0.5;
+		display: none;
+	}
+
 	.brand_hotnews ul {
 		border: #CCC solid 1px;
 		border-top: none;
@@ -264,13 +274,20 @@
 		
 	}
 	
+	.brand_hotnews .pe-thumbs li.last a div.pe-description {
+		position: relative;
+		top: -110px;
+		left: -110px;
+	}
 	.brand_hotnews .pe-thumbs li a div.pe-description {
 		background: none repeat scroll 0 0 rgba(255, 255, 255, 1);
 		display: none;
 		height: 105px;
-		position: absolute;
+		position: relative;
+		top: -110px;
+		left: 110px;
 		text-align: left;
-		width: 110px;
+		width: 115px;
 		z-index: 1001;
 		font-size: 14px;
 		margin-right: -10px;

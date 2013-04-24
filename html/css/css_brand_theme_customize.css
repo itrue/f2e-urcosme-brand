@@ -1,13 +1,10 @@
 @charset "UTF-8";
 
 /* 品牌櫥窗 主選單-----------------------------------------------------------------------------------------------------------------------------------*/
-a:hover {
+a:hover,
+.active_link a  {
 	color: #05398c;
 	
-}
-
-.active_link a {
-	color: #05398c;
 }
 
 
@@ -60,6 +57,12 @@ a:hover {
 	color: #05398c;
 }
 
+/* 品牌情報 UrCosme 會員專屬限定--------------------------------------------------------------------------------------------------------------------------*/
+.brand_member_only_content button:hover {
+  color: #05398c;
+  background-color: #FFF;
+}
+
 /* 品牌情報 TAB -----------------------------------------------------------------------------------------------------------------------------------*/
 
 .brand_rank_tabs .ui-state-active a {
@@ -70,7 +73,7 @@ a:hover {
 
 /* 產品列表 搜尋選項 --------------------------------------------------------------------------------*/
 .brand_product_search_option {
-  	background-color: #05398c;
+  background-color: #05398c;
 }
 
 .brand_product_search_option a {
@@ -122,14 +125,25 @@ a:hover {
   }
   
   
-  #jlocator .title{
-    color: #05398c;
-  }
-  
+  #jlocator .title,
   #jlocator .info-window .store p:hover span.title {
     color: #05398c;
   }
- 
+  
+
+/* 品牌特企 --------------------------------------------------------------------------------*/
+.brand_promotion_month li:first-child {
+  color: #05398c;
+}
+
+.brand_promotion_month .ui-state-active a {
+	background-color: #05398c;
+	color: #FFF;
+}
+
+.brand_promotion_month .ui-state-active a:after {
+  border-color: #05398c transparent;
+}
  
  
  

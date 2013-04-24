@@ -19,6 +19,7 @@
 		padding: 5px 1.8px;
 		letter-spacing: 1px;
 		margin-left: -1px;
+    *width: 466px;
 		
 	}
 	
@@ -35,6 +36,7 @@
 			display: block;
 			width:220px;
 			padding-left: 5px;
+      *padding: 0 5px;
 		}
 		
 		
@@ -51,6 +53,7 @@
 				text-align: center;
 				padding: 5px 1.6px;
 				margin-left:-1px;
+        *width: 101px;
 			}
 		
 /* 產品列表 搜尋結果 --------------------------------------------------------------------------------*/
@@ -89,6 +92,9 @@
 			border: #CCC solid 1px;
 			border-top: none;
 			padding: 10px;
+      *border: none;
+      *margin-left: 0px;
+      *margin-top: -25px;
 		}
 		
 		.brand_product_list {

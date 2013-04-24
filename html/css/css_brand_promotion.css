@@ -83,7 +83,7 @@
 		}
 		
 		 .brand_promotion_history .bx-wrapper .bx-pager.bx-default-pager a {
-			background: #999;
+			background: #CCC;
 			text-indent: -9999px;
 			display: block;
 			width: 10px;
@@ -130,4 +130,137 @@
 		}
 
 /* 品牌特企 粉絲好康快訊 Block --------------------------------------------------------------------------------*/
+.brand_promotion_goodnews {
+  border: #CCC solid 1px;
+  border-top: none;
+  font-size: 15px;
+}
+	
+  /* 品牌特企 月份 --------------------------------------------------------------------------------*/
+  .brand_promotion_month {
+    padding: 20px 59px;
+    *margin-bottom: 30px;
+  }
+  
+  .brand_promotion_month li {
+    float: left;
+    font-weight: bold;
+    letter-spacing: 1px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 2.5em;
+    margin-left: 25px;
+  }
+  
+  .brand_promotion_month li:first-child {
+    margin-left: 0px;
+  }
+  
+  .brand_promotion_month li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+  	border: #CCC solid 1px;
+    background-color: #F7F8F8;
+  }
+  .brand_promotion_month .ui-state-active a {
+    position: relative;
+  }
+  
+  .brand_promotion_month .ui-state-active a:after {
+    border-style: solid;
+    border-width: 5px 5px 0;
+    bottom: -5px;
+    content: "";
+    display: block;
+    left: 15px;
+    position: absolute;
+    width: 0;
+  }
+  
+  .brand_promotion_month .ui-state-active a:before {
+    border-color: #CCC transparent;
+    border-style: solid;
+    border-width: 6px 6px 0;
+    bottom: -6px;
+    content: "";
+    display: block;
+    left: 14px;
+    position: absolute;
+    width: 0;
+  }
+  
+  /* 品牌特企 月份 好康訊息 --------------------------------------------------------------------------------*/
+  .brand_promotion_month_lists li {
+    border-top : #CCC solid 1px;
+  }
+  
+  .brand_promotion_month_lists li a {
+    width: 96.9%;
+    display: block;
+    background-color: #F7F8F8;
+    padding: 10px 15px;
+    
+  }
+  
+  .brand_promotion_month_lists li a:hover {
+    background-color: #FFF;
+  }
+ 
+	
+		/* 品牌特企 年份 好康訊息 --------------------------------------------------------------------------------*/
+    
+    /** THEME
+		===================================*/
+    .brand_promotion_goodnews {
+      position: relative;
+    }
+		 
+		
+    .brand_promotion_goodnews .bx-wrapper .bx-pager,
+    .brand_promotion_goodnews .bx-wrapper .bx-controls-auto {
+			position: absolute;
+			bottom: 10px;
+			width: 100%;
+		}
+		
+		/* PAGER */
+		
+		.brand_promotion_goodnews .bx-wrapper .bx-pager {
+			display:none;
+		}
+		
+		/* DIRECTION CONTROLS (NEXT / PREV) */
+		.brand_promotion_goodnews .bx-wrapper .bx-prev {
+			left: 15px;
+			background: url('../images/controls.png') no-repeat 0 -32px;
+		}
+		
+		.brand_promotion_goodnews .bx-wrapper .bx-next {
+			right: 15px;
+			background: url('../images/controls.png') no-repeat -43px -32px;
+		}
+		
+		.brand_promotion_goodnews .bx-wrapper .bx-prev:hover {
+			background-position: 0 0;
+		}
+		
+		.brand_promotion_goodnews .bx-wrapper .bx-next:hover {
+			background-position: -43px 0;
+		}
+		
+		.brand_promotion_goodnews .bx-wrapper .bx-controls-direction a {
+			position: absolute;
+			top: 20%;
+			margin-top: -16px;
+			outline: 0;
+			width: 32px;
+			height: 32px;
+			text-indent: -9999px;
+			z-index: 9999;
+		}
+  
+  
 

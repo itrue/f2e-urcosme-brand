@@ -4,6 +4,8 @@ $(document).ready(function() {
   $( "#brand_product_search" ).tabs();
   $( "#brand_product_attribute" ).tabs();
   $( "#brand_product_search_result" ).tabs();
+	$( "#brand_promotion_month_2013" ).tabs();
+	$( "#brand_promotion_month_2012" ).tabs();
   
   
 });
@@ -11,8 +13,8 @@ $(document).ready(function() {
 
 $(document).ready(function() {
   $('.brand_kv_slider').bxSlider({
-	auto: true,
-	autoHover: true
+		auto: true,
+		autoHover: true
   });
   
 });
@@ -28,6 +30,14 @@ $(document).ready(function() {
   });
 	
 });
+
+$(document).ready(function() {
+  $('.brand_promotion_year').bxSlider({
+		mode: 'fade'
+  });
+  
+});
+
 
 $(document).ready(function(){
 	if($('#jlocator').length > 0) {

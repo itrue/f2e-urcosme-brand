@@ -9,6 +9,7 @@
 .brand_location_block table {
 	border: #CCC solid 1px;
 	border-top: none;
+  border-collapse: collapse;
   
 }
 
@@ -27,10 +28,13 @@
 .brand_location_block table td {
 	border-left: #CCC solid 1px;
 	padding: 0 15px;
+  padding: 15px\9;
+  *border: #CCC solid 1px;
 }
 
 .brand_location_block table td:first-child {
 	border: none;
+  *border: #CCC solid 1px;
 }
 
 /* GOOGLE MAP */
@@ -62,6 +66,7 @@
 			height: 550px;
 			float: right;
 			overflow: auto;
+      
 		}
 		
 		#jlocator .map{
@@ -103,7 +108,7 @@
 			line-height: 1.3em;
 			
 			overflow: hidden;
-			background: #fff url('../images/icons/down.png') no-repeat 99% 50%;
+			background: #fff url('../images/brand_icon_down.png') no-repeat 99% 50%;
 			
 			text-indent: 5px;
 			margin: 0px 0px 0px 0px;
@@ -111,7 +116,7 @@
 		}
 		
 		#jlocator .drop-down:hover .panel{
-			background: #fff url('../images/icons/down-dark.png') no-repeat 99% 50%;
+			background: #fff url('../images/brand_icon_down-dark.png') no-repeat 99% 50%;
 		}
 		
 		#jlocator .drop-down ul{		
@@ -181,12 +186,15 @@
       padding: 0.63em 0.7em 0.7em 1.2em;
       margin: 0;
       border-top: 1px solid #fff;
-      background-color: #f4f4f4
+      background-color: #f4f4f4;
+      *padding: 0.69em 0.7em 0.7em 1.2em;
+
     }
     
     
     #jlocator .brand_location_map_pin {
       float: right;
+      *margin-top: -35px;
     }
     
     /* info window */
@@ -194,6 +202,9 @@
       border: 0px;
       font-size: 0.8em;
       background-color: #FFF;
+      line-height: 1.8em;
+      *width: 50%;
+      *overflow: hidden;
     }
     
     #jlocator .info-window .store p:hover,
@@ -213,7 +224,7 @@
 
 /* 通路資訊 網路通路 Block --------------------------------------------------------------------------------*/
 .brand_location_online table td {   
-    width: 435px;	
+    width: 440px;	
 	
 }
 
@@ -221,6 +232,6 @@
 /* 通路資訊 連鎖通路 Block --------------------------------------------------------------------------------*/
 
 .brand_location_chain table td {
-	width: 278px;	
+	width: 282px;	
 }
 

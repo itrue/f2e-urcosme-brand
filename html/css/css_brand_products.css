@@ -92,9 +92,8 @@
 			border: #CCC solid 1px;
 			border-top: none;
 			padding: 10px;
-      *border: none;
-      *margin-left: 0px;
-      *margin-top: -25px;
+      *margin:0 px;
+      *border:none;
 		}
 		
 		.brand_product_list {

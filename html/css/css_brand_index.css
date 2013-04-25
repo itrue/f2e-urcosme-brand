@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* 品牌情報 第一區塊( 主視覺 & 品牌要素 )-----------------------------------------------------------------------------------------------------------------------------------*/
 .brand_kv_element{
-	margin: 20px;
+/*	margin: 20px;*/
 }
 	/* 品牌情報 主視覺--------------------------------------------------------------------------------------------------------------------------------------*/
 	.brand_kv {
@@ -9,7 +9,6 @@
 		border: #CCC solid 1px;
 		width: 600px;
 		height: 310px;
-		margin-right: 20px;
 		float:left;
 	}
 	
@@ -317,7 +316,6 @@
 }
 
 	.brand_member_only .brand_block_name {
-		*margin-bottom: -25px;
 	}
 	
 	.brand_member_only_content {
@@ -325,6 +323,10 @@
 		border-top: none;
 	
 	}
+  
+  .brand_member_only_content .brand_update {
+    *right: 20px;
+  }
 	
 	.brand_member_only_content button {
 		float:right;
@@ -344,6 +346,10 @@
 
 .brand_rank_tabs {
 	position: relative;
+}
+
+.brand_rank_tabs .brand_update {
+  *right: 20px;
 }
 
 .brand_tabs_nav ul {
@@ -372,7 +378,7 @@
 .brand_tabs_border {
 	display: block;
 	border: #CCC solid 1px;
-  *margin-top: -25px;
+  
 }
 
 
@@ -381,7 +387,9 @@
 		display:block;
 		float: left;
 		margin: 10px 0 20px 17px;
-    *margin:20px 10px;
+    *padding: 20px 10px;
+    *margin: 0px;
+    
 	}
 	.brand_rank_list li {
 		width: 145px;
@@ -486,6 +494,9 @@
 	}
 	
 /* 品牌情報 部落格特搜 ----------------------------------------------------------------------------------------*/
+.brand_blogSeeker .brand_block_name {
+  margin-top:0px;
+}
 
 
 	/* 品牌情報 部落格特搜 左邊 main ----------------------------------------------------------------------------------------*/	

@@ -23,8 +23,11 @@ a:link {
 .brand_window_block {
 	margin: 25px 20px;
 	font-size: 15px;
+  *padding: 15px 20px;
+  *margin: 0px;
 	
 }
+
 
 
 
@@ -51,6 +54,7 @@ a:link {
 		letter-spacing: 1px;
 		background-color: #CCC;
 		color: #FFF;
+    
 	}
 	
 	.brand_block_more {
@@ -187,6 +191,7 @@ a:link {
 	
 	#footerpage .brand_breadcrumb {
 		margin: 0 0 10px 20px; 
+    *margin-top: 40px;
 	}
 	
 	#footerpageList a:hover {

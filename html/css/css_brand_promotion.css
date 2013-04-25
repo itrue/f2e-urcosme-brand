@@ -13,6 +13,11 @@
 	position: relative;
 }
 
+.brand_promotion_member_content {
+  margin-bottom: 20px;
+ 
+}
+
 /* 品牌特企 特別企劃 Block --------------------------------------------------------------------------------*/
 .brand_promotion_special {
 	padding: 20px 20px 0 20px;

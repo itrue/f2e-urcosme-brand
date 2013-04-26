@@ -153,6 +153,13 @@ a:link {
 		vertical-align: middle;
     margin-right: 5px;
 	}
+  
+  .brand_footer i {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-left: 80px;
+  }
 	
 	
 	.brand_footer ul li {

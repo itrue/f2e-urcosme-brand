@@ -2,13 +2,7 @@
 /* CSS Document */
 
 /* 品牌情報 */
-.brand_element i {
-  display: block;
-  width: 40px;
-  height: 40px;
-  float: left;
-  margin: 5px 10px;
-}
+
 
 .icon_product {
   background-image: url('../images/icon_product.png');
@@ -24,13 +18,6 @@
 
 .icon_wish {
   background-image: url('../images/icon_wish.png');
-}
-
-.brand_footer i {
-  float: left;
-  width: 50px;
-  height: 50px;
-  margin-left: 80px;
 }
 
 .icon_facebook_footer {
@@ -83,5 +70,13 @@
 
 .icon_check {
   background-image: url('../images/icon_check.png');
+}
+
+.icon_filter {
+  background-image: url('../images/icon_filter.png');
+}
+
+.icon_pin {
+  background-image: url('../images/icon_pin.png');
 }
 

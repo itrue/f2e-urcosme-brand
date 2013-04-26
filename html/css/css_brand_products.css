@@ -125,6 +125,13 @@
 			float: right;
 			margin: 10px;
 		}
+    
+    .brand_product_filter i {
+      float: left;
+      display: block;
+      width: 30px;
+      height: 30px;
+    }
 		
 		
 

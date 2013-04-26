@@ -192,9 +192,12 @@
     }
     
     
-    #jlocator .brand_location_map_pin {
+    #jlocator .store.box i {
       float: right;
       *margin-top: -35px;
+      display: block;
+      width: 30px;
+      height: 30px;
     }
     
     /* info window */

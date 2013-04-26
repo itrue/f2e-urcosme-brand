@@ -151,6 +151,7 @@ a:link {
 	
 	.brand_footer img {
 		vertical-align: middle;
+    margin-right: 5px;
 	}
 	
 	
@@ -163,9 +164,11 @@ a:link {
 	.brand_footer ul li a{
 		display:block;
 		border: #CCC solid 1px;
-		width: 312px;		
+		width: 312px;
+    height: 55px;		
 		padding: 10px 0;
 		background-color: #f7f8f8;
+    line-height: 3.5em;
 	}
 	
 	.brand_footer ul li a:hover {

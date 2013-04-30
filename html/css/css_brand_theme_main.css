@@ -28,6 +28,53 @@ a:link {
 	
 }
 
+/* UrCosme Header */
+.headerpageMemberBlock {
+  display: block;
+  border: #CCC solid 1px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  
+}
+
+.headerpageMemberBlock input {
+  background-color: #FFF;
+  border: #CCC solid 1px;
+  cursor: pointer;
+  
+}
+
+#headerpage .headerpageMemberBlock p {
+  padding: 0.5em;
+}
+
+#headerpage .headerpageMemberBlock h3 {
+  padding: 0.5em 0 0.2em;
+}
+
+#headerpage .headerpageMemberBlock h4 span {
+  padding-right: 0.5em;
+}
+
+.headerpageMemberBlock .logout {
+  float: right;
+  clear: both;
+}
+
+#headerpage .headerpageMemberBlock h5 {
+  float: left;
+}
+
+#headerpage .headerpageMemberBlock h5 span {
+  margin-left: 20px;
+  margin-top: -5px;
+}
+
+#headerpage .headerpageMemberBlock i {
+  float: right;
+  margin-left: 3px;
+}
 
 
 

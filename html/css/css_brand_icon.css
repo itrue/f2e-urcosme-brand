@@ -3,6 +3,38 @@
 
 /* 品牌情報 */
 
+.brand_window_logo {
+  background-image: url('../images/brand_window_logo.gif');
+  display:block;
+  width: 192px;
+  height: 48px;
+  
+}
+
+.icon_mynews {
+  background-image: url('../images/icon_mynews.gif');
+  display: block;
+  width: 47px;
+  height: 19px;
+  float: left;
+  margin-right: 5px;
+  
+}
+
+.fb_connect {
+  background-image: url('../images/fb_connect_bt.gif');
+  display: block;
+  width: 14px;
+  height: 13px; 
+}
+
+.y_connect {
+  background-image: url('../images/y_connect_bt.gif');
+  display: block;
+  width: 23px;
+  height: 13px; 
+}
+
 
 .icon_product {
   background-image: url('../images/icon_product.png');

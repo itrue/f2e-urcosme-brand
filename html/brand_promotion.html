@@ -42,26 +42,39 @@
   <div class="brand_container">
   
   
-    <!-- URCOSME headerpage start -->
+    <!-- UrCosme headerpage start -->
     <div id="headerpage">
       <!-- headerpageMemberBlock start -->
-      <div class="headerpageMemberBlock" style="height: 70px;">
-	     <p><a class="ClickTrack" name="38" href="http://www.urcosme.com/beauty_diary/index/azhtnog.htm"><img src="http://f5.urcosme.com/system/phpThumb/cache2/system/uploads/mycosme/head/f8/68/318535.w_50xh_50xfar_Cxup_1358308084.jpg" width="40px" height="40px"></a></p>
-		 <h3>Hi <a class="ClickTrack" name="38" href="http://www.urcosme.com/beauty_diary/index/azhtnog.htm">Ruby Liang</a></h3>
-		 <h4><span><a href="http://www.urcosme.com/mycosme/logout.php?icomefrom=http://brand.urcosme.com/dhc/index.htm" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image50','','http://www.urcosme.com/images_theme2/logout_bt_hover.gif',1)"><img src="http://www.urcosme.com/images_theme2/logout_bt.gif" name="Image50" width="32" height="18" border="0" id="Image50" /></a></span>
-		     <a  class="ClickTrack" name="39" href="http://www.urcosme.com/beauty_diary/mynews.php"><img src="http://www.urcosme.com/beauty_diary/images/rss_news2.gif" alt="我的新訊" width="47" height="19" align="absmiddle" /></a> <a class="ClickTrack" name="39" href="http://www.urcosme.com/beauty_diary/mynews.php">47</a> 則
-		 </h4>
+      <form class="headerpageMemberBlock">
+	     	<p><a class="ClickTrack" name="38" href="http://www.urcosme.com/beauty_diary/index/azhtnog.htm"><img src="http://f5.urcosme.com/system/phpThumb/cache2/system/uploads/mycosme/head/f8/68/318535.w_50xh_50xfar_Cxup_1358308084.jpg" width="40px" height="40px"></a></p>
+		 		<h3>Hi <a class="ClickTrack" name="38" href="http://www.urcosme.com/beauty_diary/index/azhtnog.htm">Ruby Liang</a></h3>
+		 		<h4><span><input type="submit" value="登出"></span><a class="ClickTrack" name="39" href="http://www.urcosme.com/beauty_diary/mynews.php"><i class="icon_mynews"></i>47</a> 則</h4>
          <div class="clear"></div>
-	  </div>
+	  	</form>
+
       <!-- headerpageMemberBlock end -->
+
+
+      <!-- LOGIN begin -->
+      <form class="headerpageMemberBlock" style="display:none;" >
+      	<h5>電子信箱 <input name="loginemail" type="text" class="textbox" size="24" value="" /></h5>
+      	<h5>　　密碼 <input name="loginpasswd" type="password" class="textbox" size="17" value="" /><input type="submit" value="登入" class="logout"></h5>
+        <h5>
+        	<span><a href="#">忘記密碼</a><input type="checkbox" name="autologin" value="yes" checked="checked" />記住密碼 </span>
+          其它ID<a href="#"><i class="y_connect"></i><i class="fb_connect"></i></a>
+        </h5>     	
+        <div class="clear"></div>
+      </form>
+			<!-- LOGIN end -->
+      
       
       <!-- headerpageBrandWindowBlock start -->						
       <div class="headerpageBrandWindowBlock">
-        <a href="http://www.urcosme.com/brand/cbrand" target="_blank"><img src="http://brand.urcosme.com/index/images/brand_window_logo.gif" align="absmiddle" border="0" /></a>
+        <a href="http://www.urcosme.com/brand/cbrand" target="_blank"><i class="brand_window_logo"></i></a>
       </div>
       
       <div class="headerpageOtherBrandWindowBlock">
-        <select name="factory_id" onchange="if(this.value){window.location.href='http://brand.urcosme.com/'+this.value+'/index.htm';}">
+        <select name="factory_id">
           <option value="" selected="selected">－其它品牌社群－</option>
           <option value="albion">ALBION艾倫比亞</option>
           <option value="annasui">ANNA SUI安娜蘇</option>
@@ -177,12 +190,10 @@
           <option value="theone">beiwei 23.5北緯23.5</option>
         </select>
       </div>
-      <!-- URCOSME headerpageBrandWindowBlock end -->
-      
+      <!-- headerpageBrandWindowBlock end -->
       <div class="clear"></div>
-      
-	</div>
-	<!-- URCOSME headerpage end -->  
+		</div>
+		<!-- UrCosme headerpage end -->  
   
   
     <!-- 品牌情報 header begin -->

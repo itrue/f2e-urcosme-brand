@@ -45,7 +45,7 @@
     <!-- UrCosme headerpage start -->
     <div id="headerpage">
       <!-- headerpageMemberBlock start -->
-      <form class="headerpageMemberBlock">
+      <form class="headerpageMemberBlock" style="display:none;">
 	     	<p><a class="ClickTrack" name="38" href="http://www.urcosme.com/beauty_diary/index/azhtnog.htm"><img src="http://f5.urcosme.com/system/phpThumb/cache2/system/uploads/mycosme/head/f8/68/318535.w_50xh_50xfar_Cxup_1358308084.jpg" width="40px" height="40px"></a></p>
 		 		<h3>Hi <a class="ClickTrack" name="38" href="http://www.urcosme.com/beauty_diary/index/azhtnog.htm">Ruby Liang</a></h3>
 		 		<h4><span><input type="submit" value="登出"></span><a class="ClickTrack" name="39" href="http://www.urcosme.com/beauty_diary/mynews.php"><i class="icon_mynews"></i>47</a> 則</h4>
@@ -56,16 +56,18 @@
       
       
       <!-- LOGIN begin -->
-      <form class="headerpageMemberBlock" style="display:none;" >
+      <form class="headerpageMemberBlock">
       	<h5>電子信箱 <input name="loginemail" type="text" class="textbox" size="24" value="" /></h5>
       	<h5>　　密碼 <input name="loginpasswd" type="password" class="textbox" size="17" value="" /><input type="submit" value="登入" class="logout"></h5>
         <h5>
-        	<span><a href="#">忘記密碼</a><input type="checkbox" name="autologin" value="yes" checked="checked" />記住密碼 </span>
-          其它ID<a href="#"><i class="y_connect"></i><i class="fb_connect"></i></a>
+        	<span class="social_network">其它ID<a href="#"><i class="fb_connect"></i><i class="y_connect"></i></a></span>
+        	<span class="forget"><a href="#">忘記密碼</a></span>
+          <span><input type="checkbox" name="autologin" value="yes" checked="checked" />記住密碼 </span>
+          
         </h5>     	
         <div class="clear"></div>
-      </form>
-			<!-- LOGIN end -->
+      </form>			
+      <!-- LOGIN end -->
       
       
       <!-- headerpageBrandWindowBlock start -->						
@@ -204,7 +206,7 @@
         <li><a href="http://www.urcosme.com" target="_blank">回UrCosme首頁</a> > </li>
         <li><a href="http://www.urcosme.com" target="_blank">品牌櫥窗</a> > </li>
         <li><a href="http://www.urcosme.com" target="_blank">DHC</a> > </li>
-        <li class="active_link"><a href="http://www.urcosme.com" target="_blank">通路資訊</a></li>              
+        <li class="active_link">通路資訊</li>              
       </ul> 
       <!-- 品牌情報 麵包屑 end --> 
       
@@ -475,12 +477,12 @@
           
           <tr>
             <td>DHC網路訂購</td>
-            <td>http://www.27662000.com.tw</td>
+            <td><a href="#">http://www.27662000.com.tw</a></td>
           </tr>
           
           <tr>
             <td>DHC郵寄訂購</td>
-            <td>https://maps.google.com.tw/?q=105</td>
+            <td><a href="#">https://maps.google.com.tw/?q=105</a></td>
           </tr>
           
         </table>
@@ -509,12 +511,12 @@
           </tr>
           <tr>
             <td>康是美</td>
-            <td>http://www.cosmed.com.tw/<br />0800-033-168</td>
+            <td><a href="#">http://www.cosmed.com.tw/</a><br />0800-033-168</td>
             <td>請至官網-門市搜詢頁確認各門市營業時間<br /> </td>
           </tr>
           <tr>
             <td>屈臣氏</td>
-            <td>http://www.watsons.com.tw/</td>
+            <td><a href="#">http://www.watsons.com.tw/</a></td>
             <td>請至官網-門市搜詢頁確認各門市營業時間 </td>
           </tr>
         </table>
@@ -553,7 +555,7 @@
         <li><a href="http://www.urcosme.com" target="_blank">回UrCosme首頁</a> > </li>
         <li><a href="http://www.urcosme.com" target="_blank">品牌櫥窗</a> > </li>
         <li><a href="http://www.urcosme.com" target="_blank">DHC</a> > </li>
-        <li class="active_link"><a href="http://www.urcosme.com" target="_blank">通路資訊</a></li>      
+        <li class="active_link">通路資訊</li>      
         <div class="clear"></div>       
       </ul> 
       <!-- 品牌櫥窗 麵包屑 end -->  

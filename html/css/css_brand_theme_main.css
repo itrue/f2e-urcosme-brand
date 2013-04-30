@@ -11,6 +11,7 @@ a:link {
 	text-decoration: none;
 }
 
+.active_link,
 .active_link a {
 	text-decoration: underline; 
 	font-weight:bold;
@@ -59,21 +60,28 @@ a:link {
 
 .headerpageMemberBlock .logout {
   float: right;
-  clear: both;
-}
-
-#headerpage .headerpageMemberBlock h5 {
-  float: left;
+  margin-left: 5px\9;
+  *margin-top: -22px;
 }
 
 #headerpage .headerpageMemberBlock h5 span {
-  margin-left: 20px;
-  margin-top: -5px;
+  float: left;
+  width: 32%;
+  display: block;
 }
 
-#headerpage .headerpageMemberBlock i {
+#headerpage .headerpageMemberBlock h5 span i {
   float: right;
-  margin-left: 3px;
+  *margin-top: -15px;
+}
+
+.forget {
+  text-decoration: underline;
+  text-align: center;
+}
+
+.social_network {
+  width: 75px !important;
 }
 
 

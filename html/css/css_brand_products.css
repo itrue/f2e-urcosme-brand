@@ -132,6 +132,63 @@
       width: 30px;
       height: 30px;
     }
+    
+    .brand_product_list .product_action {
+      width: 25%;
+    }
+    
+    .brand_product_list .brand_price {
+      width: 70%;
+    }
+    
+    
+    #back-top {
+      position: fixed;
+      bottom: 30px;
+      right: 50px;
+    }
+    
+    #back-top a {
+      width: 50px;
+      display: block;
+      text-align: center;
+      text-decoration: none;
+      color: #bbb;
+    
+      /* transition */
+      -webkit-transition: 1s;
+      -moz-transition: 1s;
+      transition: 1s;
+     
+    }
+    #back-top a:hover {
+      color: #000;
+    }
+    
+    /* arrow icon (span tag) */
+    #back-top span {
+      width: 50px;
+      height: 50px;
+      display: block;
+      margin-bottom: 7px;
+      background: #CCC url('../images/icon_top.png') no-repeat center center;
+      
+      -webkit-box-shadow: 0 0 5px #ccc;
+			box-shadow: 0 0 5px #ccc;
+    
+      /* rounded corners */
+/*      -webkit-border-radius: 15px;
+      -moz-border-radius: 15px;
+      border-radius: 15px;*/
+    
+      /* transition */
+      -webkit-transition: 1s;
+      -moz-transition: 1s;
+      transition: 1s;
+    }
+    #back-top a:hover span {
+      background-color: #777;
+    }
 		
 		
 

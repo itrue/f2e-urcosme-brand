@@ -111,6 +111,36 @@
 			text-indent: -9999px;
 			z-index: 9999;
 		}
+    
+    /* DIRECTION CONTROLS (NEXT / PREV) */
+		.brand_promotion_history .bx-wrapper .bx-prev {
+			left: -10px;
+			background: url('../images/controls.png') no-repeat 0 -32px;
+		}
+		
+		.brand_promotion_history .bx-wrapper .bx-next {
+			right: -10px;
+			background: url('../images/controls.png') no-repeat -43px -32px;
+		}
+		
+		.brand_promotion_history .bx-wrapper .bx-prev:hover {
+			background-position: 0 0;
+		}
+		
+		.brand_promotion_history .bx-wrapper .bx-next:hover {
+			background-position: -43px 0;
+		}
+		
+		.brand_promotion_history .bx-wrapper .bx-controls-direction a {
+			position: absolute;
+			top: 40%;
+			margin-top: -16px;
+			outline: 0;
+			width: 32px;
+			height: 32px;
+			text-indent: -9999px;
+			z-index: 9999;
+		}
 	
 		.promotion_history_content {
 			border: #CCC solid 1px;
@@ -129,10 +159,14 @@
 			
 		}
 		
-		.promotion_history_period img {
+		.promotion_history_period i {
 			float: left;
 			margin-right: 5px;
+      display: block;
+      width: 20px;
+      height: 20px;
 		}
+    
 
 /* 品牌特企 粉絲好康快訊 Block --------------------------------------------------------------------------------*/
 .brand_promotion_goodnews {
@@ -240,25 +274,25 @@
 		/* DIRECTION CONTROLS (NEXT / PREV) */
 		.brand_promotion_goodnews .bx-wrapper .bx-prev {
 			left: 15px;
-			background: url('../images/controls.png') no-repeat 0 -32px;
+			background: url('../images/brand_icon_pre.png') no-repeat;
 		}
 		
 		.brand_promotion_goodnews .bx-wrapper .bx-next {
 			right: 15px;
-			background: url('../images/controls.png') no-repeat -43px -32px;
+			background: url('../images/brand_icon_next.png') no-repeat;
 		}
 		
 		.brand_promotion_goodnews .bx-wrapper .bx-prev:hover {
-			background-position: 0 0;
+			background: url('../images/brand_icon_pre_dark.png') no-repeat;
 		}
 		
 		.brand_promotion_goodnews .bx-wrapper .bx-next:hover {
-			background-position: -43px 0;
+			background: url('../images/brand_icon_next_dark.png') no-repeat;
 		}
 		
 		.brand_promotion_goodnews .bx-wrapper .bx-controls-direction a {
 			position: absolute;
-			top: 20%;
+			top: 22%;
 			margin-top: -16px;
 			outline: 0;
 			width: 32px;

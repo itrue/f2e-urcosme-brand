@@ -99,6 +99,11 @@ a:hover,
 }
 
 
+#back-top a:hover span {
+  background-color: #05398c;
+}
+
+
 /* 通路資訊 --------------------------------------------------------------------------------*/
 
   /* 選擇地區選擇縣市 DROP DOWN　HOVER */
@@ -143,6 +148,8 @@ a:hover,
 .brand_promotion_month .ui-state-active a:after {
   border-color: #05398c transparent;
 }
+ 
+ 
  
  
  

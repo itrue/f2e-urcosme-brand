@@ -168,6 +168,24 @@
   }
 	
 		/* 品牌情報 品牌要素 加入關注品牌 btn -----------------------------------------------------------------------------------------*/
+		button.alreadyFav {
+			font-size: 17px;
+			color: #CCC;
+			padding: 5px;
+			-moz-border-radius: 10px;
+			-webkit-border-radius: 10px;
+			border-radius: 10px;
+			border: 1px solid #ccc;
+			cursor: pointer;
+			height: 40px\9;
+			line-height: 1.5em;
+			*width: 270px;
+			width: 275px;
+      cursor: default;
+      display: none;
+		}
+    
+    /* 品牌情報 品牌要素 加入關注品牌 btn -----------------------------------------------------------------------------------------*/
 		button.addtoFav {
 			font-size: 17px;
 			color: #ffffff;
@@ -393,9 +411,9 @@
 		float: left;
 		margin: 10px 0 20px 17px;
     *padding: 20px 10px;
-    *margin: 0px;
-    
+    *margin: 0px;   
 	}
+  
 	.brand_rank_list li {
 		width: 145px;
 		
@@ -405,11 +423,19 @@
 		border: none;
 		height: 40px;
 	}
-	
+  	
 	.brand_rank_list .brand_product_value img {
 		margin-left: -1px;
 	}
 	
+  .brand_rank_list .product_action {
+    width: 30%;
+  }
+  
+  .brand_rank_list .brand_price {
+    width: 67%
+  }
+
 
 	
 /* 品牌情報 第五區塊( 新品新鮮貨心得 & FB )----------------------------------------------------------------------------------------*/

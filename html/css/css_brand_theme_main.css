@@ -136,6 +136,31 @@ a:link {
 	.brand_product_value img {
 		vertical-align: middle;
 	}
+  
+  .brand_price {
+    display: block;
+    float: left;
+    border-right: #CCC solid 1px;
+    
+  }
+  
+  .product_action {
+    float: right;
+    margin-left: 3px;
+  }
+  
+  .product_action i {
+    display: block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+
+  }
+  
+  .product_action .icon_wish_color {
+  	float: right;
+  	margin-top: -20px;
+  }
 	
 	
 	/* 品牌櫥窗 date update -----------------------------------------------------------------------------------------------------------------------------------*/

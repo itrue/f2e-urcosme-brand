@@ -67,12 +67,12 @@
       
       <!-- LOGIN begin -->
       <form class="headerpageMemberBlock">
-      	<h5>電子信箱 <input name="loginemail" type="text" class="textbox" size="24" value="" /></h5>
-      	<h5>　　密碼 <input name="loginpasswd" type="password" class="textbox" size="17" value="" /><input type="submit" value="登入" class="logout"></h5>
+      	<h5>電子信箱 <input name="loginemail" type="text" class="textbox" value="" /></h5>
+      	<h5>　　密碼 <input name="loginpasswd" type="password" class="textbox" value="" /><input type="submit" value="登入" class="logout"></h5>
         <h5>
         	<span class="social_network">其它ID<a href="#"><i class="fb_connect"></i><i class="y_connect"></i></a></span>
         	<span class="forget"><a href="#">忘記密碼</a></span>
-          <span><input type="checkbox" name="autologin" value="yes" checked="checked" />記住密碼 </span>
+          <span><label><input type="checkbox" name="autologin" value="yes" checked="checked" />記住密碼 </label></span>
           
         </h5>     	
         <div class="clear"></div>
@@ -272,7 +272,10 @@
       <!-- 品牌情報 品牌要素 begin -->
       <div class="brand_element">
         <ul>
-          <li><button type="button" name="" value="" class="addtoFav">加入關注品牌 (15,291人)</button><button type="button" name="" value="" class="alreadyFav">已加入關注品牌 (15,291人)</button></li>       
+          <li>
+            <button type="button" name="" value="" class="addtoFav">加入關注品牌 (15,291人)</button>
+            <button type="button" name="" value="" class="alreadyFav hide">已加入關注品牌 (15,291人)</button>
+          </li>       
           <li>
           	搜尋
             <select>

@@ -39,6 +39,11 @@ a:link {
   
 }
 
+.headerpageMemberBlock input[type=text], 
+.headerpageMemberBlock input[type=password] {
+  width: 113px;
+}
+
 .headerpageMemberBlock input {
   background-color: #FFF;
   border: #CCC solid 1px;

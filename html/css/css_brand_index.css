@@ -333,35 +333,34 @@
 	}
 	
 /* 品牌情報 第三區塊( UrCosme 會員專屬限定)----------------------------------------------------------------------------------------*/
-.brand_member_only {
-	position: relative;
+	
+.brand_member_only_block {
+  border: #CCC solid 1px;
+  border-top: none;
+  position: relative;
+
 }
 
-	.brand_member_only .brand_block_name {
-	}
-	
-	.brand_member_only_content {
-		border: #CCC solid 1px;
-		border-top: none;
-	
-	}
-  
-  .brand_member_only_content .brand_update {
-    *right: 20px;
-  }
-	
-	.brand_member_only_content button {
-		float:right;
-		font-size: 15px;
-		margin: 20px;
-		cursor: pointer;
-    display: block;
-    background-color: #EFEFEF;
-    border: #CCC solid 1px;
-    padding: 5px 10px;
-    color: #666;
-	}
-  
+.brand_member_only_block .brand_update {
+  *right: 20px;
+}
+
+.brand_member_only_block button {
+  float:right;
+  font-size: 15px;
+  margin: 20px;
+  cursor: pointer;
+  display: block;
+  background-color: #EFEFEF;
+  border: #CCC solid 1px;
+  padding: 5px 10px;
+  color: #666;
+}
+
+.brand_member_only_content {
+  padding: 20px;
+}
+
 
 
 /* 品牌情報 第四區塊( 排行榜 tabs )----------------------------------------------------------------------------------------*/

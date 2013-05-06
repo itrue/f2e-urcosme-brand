@@ -313,3 +313,14 @@ a:link {
     margin: 0px;
     padding: 0px;
   }
+  
+  #footerpage .footerpageMenu {
+    background: #d07a9d;
+    display: block;
+    width: 70%;
+    margin: auto;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    
+  }

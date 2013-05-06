@@ -30,6 +30,16 @@ a:link {
 }
 
 /* UrCosme Header */
+
+
+/* 品牌櫥窗 LOGO */
+#headerpage .headerpageBrandWindowBlock {
+  margin: 1em 0.5em 0 0;
+  float: left;
+  width: 40%;
+}
+
+
 .headerpageMemberBlock {
   display: block;
   border: #CCC solid 1px;
@@ -88,6 +98,9 @@ a:link {
 .social_network {
   width: 75px !important;
 }
+
+
+
 
 
 
